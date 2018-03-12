@@ -1,0 +1,51 @@
+Program->act8 P
+P->D P
+P->act38 S P
+P->BLANK
+D->T act9 ID act10 SEMI
+T->B act0 C act1
+B->INTEGER act2
+B->FLOAT act3
+B->BOOLEAN act4
+C->LBRACKET INT act5 RBRACKET C act6
+C->BLANK act7
+S->L act11 ASSIGN E act12 SEMI
+E->G act13 E' act14
+E'->PLUS G act15 E' act14
+E'->SUB G act48 E' act14
+E'->BLANK act16
+G->Term act13 G' act14
+G'->MULTI Term act49 G' act14
+G'->DIV Term act50 G' act14
+G'->BLANK act16
+Term->LPAREN E act17 RPAREN
+Term->INT act18
+Term->LITERAL act18
+Term->REAL act18 
+Term->L act19
+L->ID act20 L' act21
+L'->LBRACKET E act22 RBRACKET L' act23
+L'->BLANK
+Bool_E->Bool_T act24 B'
+B'->OR act25 Bool_T act26
+B'->AND act27 Bool_T act28
+Bool_T->NOT act29 Bool_T act30
+B'->BLANK act31
+Bool_T->E act32 REL act33 E act34
+Bool_T->TRUE act35
+Bool_T->FALSE act36
+S->IF LPAREN act37 Bool_E RPAREN S act39
+S->WHILE LPAREN act40 Bool_E RPAREN S act41
+D->DEFINE B act47 ID act42 LPAREN M RPAREN LBRACE P RBRACE act53
+M->T act9 ID act10 M'
+M'->BLANK
+M'->COMMA T act9 ID act10 M'
+L'->LPAREN A act43 RPAREN
+A->BLANK act46
+A->E act44 A' act45
+A'->COMMA E act44 A' act45
+A'->BLANK act46
+S->RETURN E act52 SEMI
+T->RECORD LBRACE D D' RBRACE act51
+D'->D D'
+D'->BLANK

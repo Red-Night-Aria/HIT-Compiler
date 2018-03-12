@@ -1,0 +1,792 @@
+ --------------------------------------------------
+curRecord:(SYMBOL, Program):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYMBOL, Program), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act8):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYMBOL, P), (ACTION, act8), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, P):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYMBOL, P), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, D):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, D), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, DEFINE):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), (ACTION, act47), (SYN), (SYMBOL, B), (SYMBOL, DEFINE), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, B):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), (ACTION, act47), (SYN), (SYMBOL, B), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BOOLEAN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), (ACTION, act47), (SYN), (ACTION, act4), (SYMBOL, BOOLEAN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act4):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), (ACTION, act47), (SYN), (ACTION, act4), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: boolean, width: 1, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), (ACTION, act47), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act47):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), (ACTION, act47), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ID):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), (SYMBOL, ID), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act42):
+type: boolean, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), (ACTION, act42), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, LPAREN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), (SYMBOL, LPAREN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, M):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYMBOL, M), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, T):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (SYMBOL, T), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, B):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), (SYMBOL, B), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, INTEGER):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), (ACTION, act2), (SYMBOL, INTEGER), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act2):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), (ACTION, act2), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, width: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act0):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, C):
+t: integer, w: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (ACTION, act7), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act7):
+t: integer, w: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (ACTION, act7), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, width: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act1):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, width: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act9):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ID):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act10):
+Ttype: integer, Twidth: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, M'):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYMBOL, M'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, COMMA):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (SYMBOL, T), (SYMBOL, COMMA), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, T):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (SYMBOL, T), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, B):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), (SYMBOL, B), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, INTEGER):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), (ACTION, act2), (SYMBOL, INTEGER), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act2):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), (ACTION, act2), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, width: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act0):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), (ACTION, act0), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, C):
+t: integer, w: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (SYMBOL, C), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (ACTION, act7), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act7):
+t: integer, w: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), (ACTION, act7), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, width: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act1):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), (ACTION, act1), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, width: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act9):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), (ACTION, act9), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ID):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), (SYMBOL, ID), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act10):
+Ttype: integer, Twidth: 4, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), (ACTION, act10), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, M'):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, M'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, RPAREN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), (SYMBOL, RPAREN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, LBRACE):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), (SYMBOL, LBRACE), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, P):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYMBOL, P), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act38):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, S), (ACTION, act38), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, S):
+next: L0, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, S), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, L):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (SYMBOL, L), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ID):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), (ACTION, act20), (SYMBOL, ID), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act20):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), (ACTION, act20), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, L'):
+type: integer, base: a, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (ACTION, act21), (SYN), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (ACTION, act21), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act21):
+base: a, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), (ACTION, act21), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, addr: a, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act11):
+next: L0, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), (ACTION, act11), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ASSIGN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), (SYMBOL, ASSIGN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, E):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (SYMBOL, E), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, G):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (SYMBOL, G), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, Term):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (SYMBOL, Term), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, L):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (SYMBOL, L), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ID):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), (ACTION, act20), (SYMBOL, ID), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act20):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), (ACTION, act20), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, L'):
+type: integer, base: a, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act21):
+base: a, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, addr: a, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act19):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: a, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act13):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, G'):
+Taddr: a, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (ACTION, act16), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act16):
+Taddr: a, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), (ACTION, act16), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: a, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act14):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), (ACTION, act14), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: a, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act13):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act13), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, E'):
+Taddr: a, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, PLUS):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (SYMBOL, G), (SYMBOL, PLUS), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, G):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (SYMBOL, G), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, Term):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (SYMBOL, Term), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, L):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (SYMBOL, L), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, ID):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), (ACTION, act20), (SYMBOL, ID), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act20):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), (ACTION, act20), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, L'):
+type: integer, base: b, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, L'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act21):
+base: b, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), (ACTION, act21), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+type: integer, addr: b, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act19):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), (ACTION, act19), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: b, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act13):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), (ACTION, act13), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, G'):
+Taddr: b, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (SYMBOL, G'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (ACTION, act16), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act16):
+Taddr: b, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), (ACTION, act16), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: b, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act14):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), (ACTION, act14), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: b, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act15):
+Taddr: a, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), (ACTION, act15), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, E'):
+Taddr: tmp0, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (SYMBOL, E'), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (ACTION, act16), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act16):
+Taddr: tmp0, Ttype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), (ACTION, act16), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: tmp0, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act14):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), (ACTION, act14), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: tmp0, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act14):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), (ACTION, act14), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+addr: tmp0, type: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act12):
+Laddr: a, Ltype: integer, 
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), (ACTION, act12), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, SEMI):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), (SYMBOL, SEMI), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, P):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, P), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, RBRACE):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), (SYMBOL, RBRACE), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(ACTION, act53):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), (ACTION, act53), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, P):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, P), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYMBOL, BLANK):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), (SYMBOL, BLANK), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), (SYN), 
+--------------------------------------------------
+--------------------------------------------------
+curRecord:(SYN):
+
+stack view: 
+(SYMBOL, EOF), (SYN), 
+--------------------------------------------------

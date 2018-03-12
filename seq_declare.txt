@@ -1,0 +1,9 @@
+P->act8 D
+D->T act9 ID act10 SEMI D
+D->BLANK
+T->B act0 C act1
+B->INTEGER act2
+B->FLOAT act3
+B->BOOLEAN act4
+C->LBRACKET INT act5 RBRACKET C act6
+C->BLANK act7
